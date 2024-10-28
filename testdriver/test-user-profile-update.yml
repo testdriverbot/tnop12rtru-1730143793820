@@ -1,0 +1,19 @@
+version: 4.0.77
+steps:
+  - prompt: Navigate to the user profile page.
+    commands:
+      - command: hover-image
+        description: profile icon in the top right corner
+        action: click
+  - prompt: Navigate to the user profile page.
+    commands:
+      - command: hover-text
+        text: Turn on sync...
+        description: button to navigate to profile settings
+        action: click
+  - prompt: Navigate to the user profile page.
+    commands:
+      - command: hover-text
+        text: Person 1
+        description: profile name to access profile settings
+        action: click
