@@ -1,0 +1,20 @@
+version: 4.0.77
+steps:
+  - prompt: Navigate to a form on the website.
+    commands:
+      - command: hover-text
+        text: Sign in
+        description: button on the sign-in form
+        action: click
+  - prompt: Navigate to a form on the website.
+    commands:
+      - command: hover-text
+        text: Cancel
+        description: button on the sign-in form
+        action: click
+  - prompt: Navigate to a form on the website.
+    commands:
+      - command: hover-text
+        text: Cancel
+        description: button on the sign-in form
+        action: click
