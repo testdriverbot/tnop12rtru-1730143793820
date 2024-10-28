@@ -1,0 +1,14 @@
+version: 4.0.77
+steps:
+  - prompt: Find and click the main call-to-action button from the homepage.
+    commands:
+      - command: hover-text
+        text: Sign in
+        description: main call-to-action button
+        action: click
+  - prompt: >-
+      Assert that the action leads to the expected page or displays the correct
+      message.  # Use the content of the file from the environment
+    commands:
+      - command: assert
+        expect: the "Sign in" form is visible
